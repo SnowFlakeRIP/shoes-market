@@ -5,7 +5,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 fastify.register(require("fastify-mongodb"), {
     forceClose: true,
-    url: 'mongodb://92.53.102.254:27017/s-shop',
+    url: 'mongodb://localhost:27017/s-shop',
 })
 
 //                                                    Работа с пользовтелями
